@@ -15,11 +15,13 @@ public class RoboCat extends Pet implements Foul {
     }
     @Override
     public void respond() {
+        System.out.println(this.getNickName() + "Responding");
 
     }
 
     @Override
     public void foul() {
+        System.out.println(this.getNickName() + "Foul");
 
     }
 }
