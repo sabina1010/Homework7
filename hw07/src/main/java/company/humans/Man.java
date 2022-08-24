@@ -4,8 +4,8 @@ import company.Family;
 import company.Human;
 
 public final class Man extends Human {
-    public void car(){
-        System.out.println("Mercedes");
+    public void repairCar(){
+        System.out.println(this.getName()+ " " + this.getSurname()+  " Repair Mercedes");
     }
     public void greetPet() {
         System.out.println("Hello from Mr." + super.getName());
